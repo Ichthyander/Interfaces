@@ -11,13 +11,11 @@ namespace Task_1
         int startNumber;
         int number;
         int difference;
-        public int Difference { get => difference; set => difference = value; }
-        public int StartNumber { get => startNumber; set => startNumber = value; }
 
         public GeomProgression(int startNumber, int difference)
         {
-            StartNumber = startNumber;
-            Difference = difference;
+            this.startNumber = startNumber;
+            this.difference = difference;
             number = startNumber;
         }
 
